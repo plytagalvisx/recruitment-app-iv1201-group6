@@ -4,7 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "nodemon ./bin/www",
+    "start2": "node server.js",
     "dev": "nodemon server.js",
     "sequelize:database2:migrate": "sequelize --options-path ./.sequelize-database2 --env database2 db:migrate",
     "sequelize:database2:migrate:undo": "sequelize --options-path ./.sequelize-database2 --env database2 db:migrate:undo",
